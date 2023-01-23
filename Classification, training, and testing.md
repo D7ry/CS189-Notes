@@ -30,12 +30,13 @@ e.g. k-nearest neighbor's # of neighbors. Increasing&decreasing k affects overfi
 
 # Validation
 
-**Validation set** - subset of data held back before training, to test the validity of trained model.
+**Validation set** - subset of data held back before training, to help select hyperparameters.
 
-With the validation set, there are 3 sets:  
+With the validation set, there are 3 sets used in ML:  
 **training set** - model weights  
 **validation set** - tune hyperparameters&choose among different models  
 **test set** - as a final evaluation to be run once at the very end
 
 
-[^f1]a line that cuts data in 2 pieces
+
+[^f1]:a line that cuts data in 2 pieces
